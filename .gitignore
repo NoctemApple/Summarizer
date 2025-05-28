@@ -1,0 +1,5 @@
+#Ignore text file I use for testing
+test.txt
+
+#Ignore __pycache__
+**/__pycache__/
