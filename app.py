@@ -8,7 +8,7 @@ st.title("🧠 Bullet Point Text Summarizer")
 st.markdown("Paste an article or paragraph to summarize it in bullet points.")
 
 text_input = st.text_area("Enter your text here:", height=300)
-mode = st.selectbox("Choose summarization mode:", ["abstractive", "extractive", "hybrid"])
+mode = st.selectbox("Choose summarization mode:", ["ABSTRACTIVE", "EXTRACTIVE", "HYBRID"])
 
 if st.button("Summarize"):
     if text_input.strip():
