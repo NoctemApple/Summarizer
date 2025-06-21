@@ -14,6 +14,10 @@ This is a simple AI-powered summarization tool written in Python using Hugging F
 
 ## 🚀 How to Run
 
+streamlit run.py
+
+or 
+
 python3 -m streamlit run app.py
 
 ```bash
